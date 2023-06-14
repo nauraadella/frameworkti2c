@@ -7,7 +7,7 @@
 
     <ul class="nav justify-content-end">
           <li class="nav-item">
-            <a class="nav-link active text-dark" aria-current="page" href="home">Home</a>
+            <a class="nav-link active text-dark" aria-current="page" href="beranda">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link  text-dark" href="menu">Menu</a>
