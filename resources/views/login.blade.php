@@ -78,7 +78,7 @@ body {
   </head>
   <body class="text-center">
 
-    <div class="container-fluid" style="background-image: url('/asset/img/login.png'); background-size: cover; background-position: center; height: 100vh;">
+    <div class="container-fluid" style="background-image: url('/asset/img/bg.png'); background-size: cover; background-position: center; height: 100vh;">
   <main class="form-signin">
     <form class="">
       <img class="mb-4" src="{{ URL::to('/asset/img/logoo.png') }}" alt="" width="70" height="70">

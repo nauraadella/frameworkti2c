@@ -14,9 +14,21 @@ class DatabaseSeeder extends Seeder
     {
         // \App\Models\User::factory(10)->create();
 
-        // \App\Models\User::factory()->create([
-        //     'name' => 'Test User',
-        //     'email' => 'test@example.com',
-        // ]);
+        \App\Models\Menu::create([
+            'nama_menu' => 'Menu 1',
+            'harga' => 20000,
+            'keterangan' => '  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam accusamus eligendi non odit saepe? Nisi repellendus recusandae eveniet iste ipsa?',
+            "gambar" => 'menu.jpg'
+
+          
+        ]);
+        \App\Models\Menu::create([
+            'nama_menu' => 'Menu 2',
+            'harga' => 20000,
+            'keterangan' => '  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam accusamus eligendi non odit saepe? Nisi repellendus recusandae eveniet iste ipsa?',
+            "gambar" => 'menu.jpg'
+
+          
+        ]);
     }
 }
