@@ -9,7 +9,7 @@ class OrderController extends Controller
 {
   public function dataorder(){
     $orders=Order::all();
-    return view('order')->with('orders',$orders);
+    return view('orderan')->with('orders',$orders);
   }
   public function store1(Request $request)
   {

@@ -48,7 +48,7 @@ Route::get('landing', function () {
 Route::post('/tambah-menu', [App\Http\Controllers\MenuController::class,'store'])->name('menu.store');
 Route::get('/menu', [App\Http\Controllers\MenuController::class, 'datamenu'])->name('datamenu');
 Route::post('/tambah-order', [App\Http\Controllers\OrderController::class,'store1'])->name('order.store1');
-Route::get('/order', [App\Http\Controllers\OrderController::class, 'dataorder'])->name('dataorder');
+Route::get('/orderan', [App\Http\Controllers\OrderController::class, 'dataorder'])->name('dataorder');
 
 
 Route::get('login', function () {

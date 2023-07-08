@@ -2,15 +2,16 @@
 
 @section('container')
   <div class="row p-5">
-    <div class="col-sm-6 p-5">
+    {{-- <div class="col-sm-6 p-4">
       <a class="home" href="#">
-        <img src="{{ URL::to('/asset/img/menu.jpg') }}" alt="" width="400" height="400">
+        <img src="{{ URL::to('/asset/img/menu.jpg') }}" alt="" width="100" height="100">
       </a>
-    </div>
+    </div> --}}
     <form action="{{route('order.store1') }}" method="post">
       @csrf
+      
     <div class="col-sm-6 mb-3 mb-sm-0">
-        <h1 class="card-title p-sm-5">ORDER NOW</h1>
+        <h1 class="card-title p-sm-3">ORDER NOW</h1>
         <p class="order"></p>
       <div class="col-md-10">
               <div class="mb-3">
@@ -38,13 +39,10 @@
                           <input type="text" class="form-control" id="nohp" name="nohp">
                       </div>
                   </div>
-
               </div>
-
               <button type="submit" name="submit" class="btn btn-dark">Checkout</button>
       </div>
     </div>
-  </div>
 @endsection
 
 
